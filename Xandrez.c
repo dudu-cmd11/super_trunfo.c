@@ -8,7 +8,7 @@ int main(){
 
     int peca;
 
-    printf("1 - Torre\n2 - Bispo\n3 - Rainha\n");
+    printf("1 - Torre\n2 - Bispo\n3 - Rainha\n4 - Cavalo\n");
 
     printf("Qual das peças você deseja mover:\n");
     scanf("%d", &peca);
@@ -41,6 +41,23 @@ int main(){
             i++;
         } while (i <= 8); 
     }
+    if (peca == 4)
+    {
+    for (int j = 1; j <= 2; j++)
+    {
+            printf("Cima\n");
+    }
+        int i = 1;
+        while (i <= 1)
+        {
+            printf("Direita\n");
+            i++;
+            
+        }
+        
+        
+    }
+    
     
     return 0;
 }
